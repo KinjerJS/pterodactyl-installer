@@ -21,15 +21,15 @@ set -e
 #   You should have received a copy of the GNU General Public License       #
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.  #
 #                                                                           #
-# https://github.com/vilhelmprytz/pterodactyl-installer/blob/master/LICENSE #
+# https://github.com/KinjerJS/pterodactyl-installer/blob/master/LICENSE #
 #                                                                           #
 # This script is not associated with the official Pterodactyl Project.      #
-# https://github.com/vilhelmprytz/pterodactyl-installer                     #
+# https://github.com/KinjerJS/pterodactyl-installer                     #
 #                                                                           #
 #############################################################################
 
 SCRIPT_VERSION="v0.10.0"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/KinjerJS/pterodactyl-installer"
 
 LOG_PATH="/var/log/pterodactyl-installer.log"
 
@@ -71,9 +71,9 @@ done=false
 output "Pterodactyl installation script @ $SCRIPT_VERSION"
 output
 output "Copyright (C) 2018 - 2022, Vilhelm Prytz, <vilhelm@prytznet.se>"
-output "https://github.com/vilhelmprytz/pterodactyl-installer"
+output "https://github.com/KinjerJS/pterodactyl-installer"
 output
-output "Sponsoring/Donations: https://github.com/vilhelmprytz/pterodactyl-installer?sponsor=1"
+output "Sponsoring/Donations: https://github.com/KinjerJS/pterodactyl-installer?sponsor=1"
 output "This script is not associated with the official Pterodactyl Project."
 
 output

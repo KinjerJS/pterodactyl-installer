@@ -21,10 +21,10 @@ set -e
 #   You should have received a copy of the GNU General Public License       #
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.  #
 #                                                                           #
-# https://github.com/vilhelmprytz/pterodactyl-installer/blob/master/LICENSE #
+# https://github.com/KinjerJS/pterodactyl-installer/blob/master/LICENSE #
 #                                                                           #
 # This script is not associated with the official Pterodactyl Project.      #
-# https://github.com/vilhelmprytz/pterodactyl-installer                     #
+# https://github.com/KinjerJS/pterodactyl-installer                     #
 #                                                                           #
 #############################################################################
 
@@ -45,7 +45,7 @@ fi
 
 dl_script() {
   rm -rf "$SCRIPT_PATH"
-  curl -o "$SCRIPT_PATH" https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/b8e298003fe3120edccb02fabc5d7e86daef22e6/install-daemon.sh
+  curl -o "$SCRIPT_PATH" https://raw.githubusercontent.com/KinjerJS/pterodactyl-installer/b8e298003fe3120edccb02fabc5d7e86daef22e6/install-daemon.sh
   chmod +x "$SCRIPT_PATH"
 }
 
